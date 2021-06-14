@@ -1,0 +1,83 @@
+.cards-layout
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  margin: 56px 0 0
+  box-sizing: border-box
+  &__card
+    width: 48.5673%
+    border: 1px solid #5540CC
+    padding: 32px
+    box-sizing: border-box
+    background-repeat: no-repeat
+    background-position: bottom right
+    height: 323px
+    margin-bottom: 20px
+    display: flex
+    flex-direction: column
+    background-color: rgba(52, 32, 163, 0.691321)
+    transition: background 0.3s ease
+    position: relative
+    will-change: auto
+    &:hover
+      background-color: #4633B3
+      box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.157694)
+      background-repeat: no-repeat
+.card:nth-of-type(2)
+  border-radius: 0 20px 0 0
+.card:nth-of-type(7)
+  border-radius: 0 0 0 20px
+.card-title-row
+  display: flex
+  justify-content: space-between
+.logo-card
+  margin-bottom: auto
+.title-card
+  margin: 0
+  font-weight: bold
+  font-size: 20px
+  line-height: 28px
+.text-card
+  font-weight: normal
+  font-size: 17px
+  line-height: 24px
+  color: #B0A3FD
+  margin: 8px 0 0
+  width: 95%
+.welcome-text
+  font-weight: bold
+  font-size: 17px
+  line-height: 25px
+  color: #FFFFFF
+  text-decoration: none
+  margin-top: auto
+  &_soon-text
+    color: #998AEF
+.button
+  color: #FFFFFF
+  border: 0
+  font-family: 'Roboto', sans-serif
+  text-align: center
+  box-sizing: border-box
+@media screen and (min-width: 1024px) and (max-width: 1365px)
+  .cards-layout__card
+    width: 30.4113%
+    height: 380px
+    margin-bottom: 40px
+  .card:nth-of-type(2)
+    border-radius: 0 0 0 0
+  .card:nth-of-type(3)
+    border-radius: 0 24px 0 0
+@media screen and (min-width: 1366px)
+  .cards-layout__card
+    width: 23.6364%
+    height: 380px
+    margin-bottom: 20px
+  .card:nth-of-type(2)
+    border-radius: 0 0 0 0
+  .card:nth-of-type(7)
+    border-radius: 0 0 0 0
+  .card:nth-of-type(4)
+    border-radius: 0 24px 0 0
+  .card:nth-of-type(5)
+    border-radius: 0 0 0 24px
